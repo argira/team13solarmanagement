@@ -1,0 +1,37 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"" type="text/javascript" charset="utf-8"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/chart-device-data.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/wwc2019.js"></script>
+    <link href="css/style.css" rel="stylesheet" />
+
+    <title>Real-time Data</title>
+</head>
+<body>
+    <div>
+        <iframe id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" allow="autoplay; fullscreen" width="550" height="400" src="https://prezi.com/embed/68lteh343aia/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=0&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE43MHdLNWpsdFJLb2ZHanI5Z1dEYXpQQ1lHK3I4YVVDR2xNaVN1WldBPT0&amp;landing_sign=-LdHFdLhzy__d7OWR_QT8ioyy0vBoyONNcQYFLeWf8U"></iframe>
+    <h1 class="flexHeader">
+        <span>
+            <span id="deviceCount">0 devices</span>
+            <select id="listOfDevices" class="select_box"></select>
+        </span>
+        <span>Real-time Data</span>
+        <div>
+            <span id="update">Current use</span>
+            <button onclick="changeColor('green');">Change</button>
+        </div> 
+    </h1>
+    <hr>
+    <div>
+        <canvas id="iotChart" style="background-color:#F1F3F2";></canvas>
+    </div>
+</body>
+
+</html>
