@@ -1,0 +1,1 @@
+{"SchemaVersion":1,"Name":"AzureIoT","ComponentId":"819255ff-8640-41fd-aea7-f85d34c491d5","EntryPoint":"/bin/app","CmdArgs":[],"Capabilities":{"AllowedConnections":["global.azure-devices-provisioning.net","WWCHackTest.azure-devices.net","solarenergy.azure-devices.net"],"Gpio":[12,13,23,9],"Uart":["ISU0"]},"ApplicationType":"Default","TargetApplicationRuntimeVersion":2}

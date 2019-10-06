@@ -1,0 +1,13 @@
+{
+  "SchemaVersion": 1,
+  "Name": "AzureIoT",
+  "ComponentId": "819255ff-8640-41fd-aea7-f85d34c491d5",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": [],
+  "Capabilities": {
+    "AllowedConnections": [ "global.azure-devices-provisioning.net", "WWCHackTest.azure-devices.net", "solarenergy.azure-devices.net" ],
+    "Gpio": [ "$MT3620_RDB_BUTTON_A", "$MT3620_RDB_BUTTON_B", "$MT3620_RDB_LED4_BLUE", "$MT3620_RDB_LED1_GREEN" ],
+    "Uart": [ "$MT3620_RDB_HEADER2_ISU0_UART" ]
+  },
+  "ApplicationType": "Default"
+}
